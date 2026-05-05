@@ -1,3 +1,7 @@
+@font-face {
+    font-family: iphone;
+    src: url(sf-pro-text_regular.woff2);
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,32 +10,82 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 #main{
     height: 100%;
     width: 100%;
-    background-color: #093C5D;
+    background-color: black;
 }
 
 #nav{
-    height: 12%;
+    height: 10%;
     width: 100%;
-    background-color: #3B7597;
+    background-color: rgb(48, 42, 42);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 
 #nav a{
-    color: #5DF8D8;
-    font-size: 20px;
-    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    font-family: iphone;
+    font-weight: 200;
     text-decoration: none;
 }
 #nav i{
-    color: #6FD1D7;
-    font-size: 22px;
+    color: white;
+    font-size: 16px;
 }
 
+
+#center{
+    height: 90%;
+    width: 100%;
+    margin: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#center h2{
+    color: white;
+    font-size: 30px;
+    font-family: iphone;
+    font-weight: 800;
+}
+
+#center p{
+    color: white;
+    font-size: 20px;
+    font-family: iphone;
+    margin-top: 10px;
+}
+
+#center button{
+    color: white;
+    background-color: rgb(0, 113, 227);
+    font-family: iphone;
+    margin: 8px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+#center #btn-2{
+    color: rgb(0, 113, 227);
+    font-family: iphone;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 2px solid rgb(0, 113, 227);
+    border-radius: 20px;
+}
+
+#img{
+    height: 90%;
+    width: 100%;
+}
