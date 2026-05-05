@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #093C5D;
+}
+
+#nav{
+    height: 12%;
+    width: 100%;
+    background-color: #3B7597;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#nav a{
+    color: #5DF8D8;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#nav i{
+    color: #6FD1D7;
+    font-size: 22px;
+}
+
