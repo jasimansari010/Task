@@ -1,0 +1,42 @@
+@font-face {
+    font-family: ride;
+    src: url(RUSTY\ ATTACK\ DEMO\ Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(ride.jpg);
+    text-align: center;
+    padding-top: 320px;
+    padding-left: 250px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    font-size: 44px;
+    color: #f5f5f5;
+    font-family: ride;
+}
+
+button{
+    font-size: 16px;
+    padding: 10px;
+    color: red;
+    font-family: ride;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
