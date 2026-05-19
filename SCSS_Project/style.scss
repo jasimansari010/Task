@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+        background-size: cover;
+        border-radius: 10px;
+        background-position: center;
+        transition: all 0.8s cubic-bezier(0.215, 0.610, 0.355, 1);
+        cursor: pointer;
+    }
+
+    section:hover{
+        flex-grow: 2;
+    }
+
+
+    section:nth-child(1){
+        background-image: url(asset/Iron\ Man.jpeg);
+    }
+    section:nth-child(2){
+        background-image: url(asset/captain.jpeg);
+    }
+    section:nth-child(3){
+        background-image: url(asset/thor.jpeg);
+    }
+    section:nth-child(4){
+        background-image: url(asset/Black\ Widow.jpeg);
+    }
+    section:nth-child(5){
+        background-image: url(asset/wanda.jpeg);
+    }
+}
