@@ -20,4 +20,4 @@ btn.addEventListener('click',()=>{
         btn.style.opacity = 0.5;
         p.innerHTML = `Downloaded in ${num/10} seconds `;
     },num*100);
-})
+});
